@@ -1,0 +1,20 @@
+/* globals.css */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px; /* 2 * 8px (default spacing unit) */
+  background-image: url('https://www.ning.com/wp-content/uploads/2019/05/create-food-website.jpg'); /* Change this URL to your image URL */
+  background-size: cover;
+  background-position: center;
+}
